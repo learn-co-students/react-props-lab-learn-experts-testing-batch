@@ -4,7 +4,7 @@ const ReactDOM = require('react-dom');
 const Spaceship = require('./components/Spaceship');
 
 ReactDOM.render(
-  <Spaceship name="Millennium Falcon" />,
+  <Spaceship name="Millennium Falcon" speed="4,401 light-years per hour" hasRockets={true}/>,
   document.getElementById('main')
 );
 
